@@ -739,7 +739,7 @@
  * Override with M92
  *                                      X, Y, Z, E0 [, E1[, E2...]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80.40, 80.48, 400, 411.15 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 79.80, 79.80, 400, 411.15 }
 
 /**
  * Default Max Feed Rate (mm/s)
@@ -759,7 +759,7 @@
  * Override with M201
  *                                      X, Y, Z, E0 [, E1[, E2...]]
  */
-#define DEFAULT_MAX_ACCELERATION      { 2000, 2000, 100, 5000 }
+#define DEFAULT_MAX_ACCELERATION      { 2000, 2000, 200, 5000 }
 
 //#define LIMITED_MAX_ACCEL_EDITING     // Limit edit via M201 or LCD to DEFAULT_MAX_ACCELERATION * 2
 #if ENABLED(LIMITED_MAX_ACCEL_EDITING)
@@ -775,7 +775,7 @@
  *   M204 T    Travel Acceleration
  */
 #define DEFAULT_ACCELERATION          500    // X, Y, Z and E acceleration for printing moves
-#define DEFAULT_RETRACT_ACCELERATION  1000    // E acceleration for retracts
+#define DEFAULT_RETRACT_ACCELERATION  1300    // E acceleration for retracts
 #define DEFAULT_TRAVEL_ACCELERATION   500    // X, Y, Z acceleration for travel (non printing) moves
 
 /**
@@ -788,9 +788,9 @@
  */
 #define CLASSIC_JERK
 #if ENABLED(CLASSIC_JERK)
-  #define DEFAULT_XJERK 8.0
-  #define DEFAULT_YJERK 8.0
-  #define DEFAULT_ZJERK 0.3
+  #define DEFAULT_XJERK 15.0
+  #define DEFAULT_YJERK 15.0
+  #define DEFAULT_ZJERK  2.0
 
   //#define TRAVEL_EXTRA_XYJERK 0.0     // Additional jerk allowance for all travel moves
 
