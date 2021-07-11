@@ -30,6 +30,9 @@ You should follow the manual available at https://ratrig.dozuki.com/Guide/01.+Z+
 <li>Install the Teachingtech Cable Tie Remix behind the printer, not the on provided by default (https://www.thingiverse.com/thing:4871564/files)</li>
 <li>Reinstall the heatpad on the new cast tooling plate (degrease thoroughly before installing, pay close attention to the position of the cables to allow for the installation of the rear ball</li>
 </ol>
+  
+ <img width="1183" alt="Capture d’écran 2021-07-10 à 22 42 58" src="https://user-images.githubusercontent.com/20129420/125205011-669a1f80-e280-11eb-9d6e-d902953d1178.png">
+
 
 ## Wiring the SKR PRO
 
