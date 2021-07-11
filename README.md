@@ -1,4 +1,4 @@
-# Marlin 3D Printer Firmware for Rat Rig V-Core 1.3 (V-Core 1.2 upgraded with kinematic bed)
+# Marlin 3D Printer Firmware for Rat Rig V-Core 1.3 (V-Core 1.1 upgraded with kinematic bed)
 
 It is a Marlin fork for Rat Rig's V-Core 1.3.
 <img align="right" width=175 src="https://v-core.ratrig.com/assets/logo_rat_small.png" /><img align="right" width=175 src="buildroot/share/pixmaps/logo/marlin-250.png" />
@@ -15,9 +15,21 @@ Additional documentation can be found at the [Marlin Home Page](https://marlinfw
 
 ## Building the Vcore 1.3
 
-As mentioned above, the Vcore Pro 1.3 is an improvement of the Vcore Pro 1.2 by adding the fantastic kinematic bed. I chose this solution because of lack of time (<strike>laziness</strike>), because I wanted a low cost upgrade and because I was already happy with my current setup EXCEPT for the Z axis.
-
+As mentioned above, the Vcore Pro 1.3 is an improvement of the Vcore Pro 1.1 by adding the fantastic kinematic bed. I chose this solution because of lack of time (<strike>laziness</strike>), because I wanted a low cost upgrade and because I was already happy with my current setup EXCEPT for the Z axis.
 I didn't want to switch to EVA either, I had already designed my own extruder, and I didn't want to start from 0 for the XY configuration. So I created a hybrid that can be upgraded quickly while taking advantage of the most significant advance, the kinematic bed.
+
+You should follow the manual available at https://ratrig.dozuki.com/Guide/01.+Z+Axis+Assembly/66?lang=en, some small actions will have to be done differently:
+
+<ol>
+<li>Disassemble the existing Z Axis</li>
+<li>(optional) Disassemble the bed frame to reuse the two 2040 extrusions as electronic rail</li>
+<li>(option) Remove the heatpad from the existing bed</li>
+<li>Assemble the Vcore 1.3 following the guide but
+<ol>
+<li>You have to cut two MGN rail @ 600mm for X & Y</li>
+<li>Install the Teachingtech Cable Tie Remix behind the printer, not the on provided by default (https://www.thingiverse.com/thing:4871564/files)</li>
+<li>Reinstall the heatpad on the new cast tooling plate (degrease thoroughly before installing, pay close attention to the position of the cables to allow for the installation of the rear ball</li>
+</ol>
 
 ## Wiring the SKR PRO
 
